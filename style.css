@@ -5,12 +5,42 @@
 }
 
 body {
-  background-color: #000;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 12px 0;
+}
+
+table {
+  border: 1px solid black;
+  margin: 0 auto;
+  text-align: center;
+  border-spacing: 0;
+}
+
+td {
+  border: 1px solid black;
+}
+
+table td {
+  padding: 5px;
+}
+
+tr:first-child td {
+  font-weight: 600;
+  background: #333;
+  color: white;
+}
+tr:nth-of-type(odd) {
+  background: #eee;
 }
 
 .mapDiv {
   width: 50%;
   margin: auto;
+  background-color: #000;
 }
 
 .mapDiv svg {
@@ -27,3 +57,5 @@ body {
   /* fill: #000; */
   box-shadow: inset 12px 12px 230px red;
 }
+
+.delhi;
