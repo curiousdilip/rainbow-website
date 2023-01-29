@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+}
+
+.mapDiv {
+  width: 50%;
+  margin: auto;
+}
+
+.mapDiv svg {
+  margin-top: 40px;
+}
+
+.mapDiv path {
+  fill: #000;
+  stroke: #fff;
+  stroke-width: 0.5px;
+  transition: fill 0.3s;
+}
+.mapDiv path:hover {
+  /* fill: #000; */
+  box-shadow: inset 12px 12px 230px red;
+}
