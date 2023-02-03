@@ -64,4 +64,18 @@ tr:nth-of-type(odd) {
   fill: red;
 }
 
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  table {
+    max-width: 200px;
+    margin-bottom: 30px;
+  }
+
+  table td {
+    font-size: 10px;
+    padding: 4px;
+  }
+}
