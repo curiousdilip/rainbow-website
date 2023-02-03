@@ -18,6 +18,7 @@ table {
   margin: 0 auto;
   text-align: center;
   border-spacing: 0;
+  max-width: 1100px;
 }
 
 td {
