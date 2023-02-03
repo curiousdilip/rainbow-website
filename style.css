@@ -51,12 +51,17 @@ tr:nth-of-type(odd) {
 
 .mapDiv path {
   fill: #d3cfef;
-  stroke: #fff;
+  stroke: #000;
   stroke-width: 0.5px;
   transition: fill 0.3s;
 }
 
-.mapDiv path:hover {
-  fill: #000;
-  box-shadow: inset 12px 12px 230px red;
+.mapDiv path.area {
+  fill: orange;
 }
+
+.mapDiv path.area:hover {
+  fill: red;
+}
+
+@media (max-width: 767px) {}
