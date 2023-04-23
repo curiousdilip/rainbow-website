@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body class="regpage">
+	<header>
+		<div class="container">
+			<div class="header">
+				<div class="header-logo">
+					<img src="images/logo.png" alt="" class="img-fluid">
+				</div>
+				<div class="header-textleft">
+					<h3>HOW PEOPLE CHANGE?<span>TRAINING IN BIBLICAL COUNSELLING</span></h3>
+				</div>
+
+			</div>
+		</div>
+	</header>
+
+	<section class="register">
+		<div class="container">
+			<div class="registrationform">
+				<div class="registrationform_inner">
+					<div class="registrationform-left">
+						<div class="course-details mxn">
+							<div class="course-details-in">
+								<div class="heading-footer-bot">Course Details</div>
+								<ul class="px-0">
+									<li>
+										<div class="course-details-icons"><img src="images/icons/live.svg" alt="" />
+										</div>Online Live Class - Zoom
+									</li>
+									<li>
+										<div class="course-details-icons"><img src="images/icons/calender.svg" alt="" />
+										</div>7 June–July 21, 2022
+									</li>
+									<li>
+										<div class="course-details-icons"><img src="images/icons/time.svg" alt="" />
+										</div>6PM – 8PM
+									</li>
+								</ul>
+							</div>
+							<div class="why-get-list ">
+								<div class="heading-footer-bot">WHAT YOU GET</div>
+								<ul class="px-4">
+									<li>Clarity & Purpose</li>
+									<li>Closeness to Jesus</li>
+									<li>Deal with root issues</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="registrationform-right">
+						<div class="heading-reg">Please fill in the form to complete your registration and proceed to
+							payment.</div>
+						<div class="form">
+							<form>
+								<div class="label">
+									<label>First Name</label>
+									<input type="text" name="">
+								</div>
+								<div class="label">
+									<label>Last Name</label>
+									<input type="text" name="">
+								</div>
+								<div class="label">
+									<label>Email</label>
+									<input type="email" name="">
+								</div>
+								<div class="label">
+									<label>Mobile</label>
+									<input type="tel" name="">
+								</div>
+								<div class="label">
+									<label>DOB</label>
+									<input type="text" name="">
+								</div>
+								<div class="label">
+									<label>Gender</label>
+									<input type="Male" name="">
+									<input type="Female" name="">
+								</div>
+								<div class="label">
+									<label>Marital Status</label>
+									<input type="text" name="">
+								</div>
+								<div class="label">
+									<label>Zip Code</label>
+									<input type="text" name="">
+								</div>
+							</form>
+							<button class="btn-green">Submit</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+	<footer>
+		<div class="container">
+			<div class="footer">
+				<div class="footer-logo">
+					<div class="footer-logo-img">
+						<img src="images/footerlogo.png" alt="">
+					</div>
+				</div>
+				<div class="copyright">
+					<span>2022 Copyright © BCTI.org.in</span>
+				</div>
+				<div class="contact-detail">
+
+					<div class="heding-footer-cont">
+						<p>Contact Us:</p>
+						<a href="tel:">09871961882</a>
+						<a href="mailto:">bcti.del@gmail.com</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="http://irh.bcti.org.in/bootstrap/js/bootstrap.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script>
+		var swiper = new Swiper(".mySwiper", {
+			autoplay: true,
+
+			breakpoints: {
+				480: { slidesPerView: 1, },
+				768: {
+					slidesPerView: 2,
+
+				},
+				1024: {
+					slidesPerView: 3,
+
+				},
+				1920: {
+					slidesPerView: 3,
+
+				}
+			}
+		});
+
+
+		var x = document.getElementsByClassName("icon-bar")[0];
+		var body = document.querySelector("body")
+
+
+		function slideX() {
+			body.classList.toggle("active")
+		}
+	</script>
+</body>
+
+</html>
