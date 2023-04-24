@@ -7127,4 +7127,15 @@ p {
   stroke: #005046;
 }
 
+.map__area .mapDiv path.Philippines {
+
+  fill: #005046;
+}
+
+
+.map__area .mapDiv path.Philippines:hover {
+  fill: #005046cc;
+  stroke: #005046;
+}
+
 /*# sourceMappingURL=style.css.map */
