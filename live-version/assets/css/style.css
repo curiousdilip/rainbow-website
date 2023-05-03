@@ -1462,6 +1462,9 @@ p {
 
 .slider-height-2 {
   height: 930px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 .slider-height-3 {
