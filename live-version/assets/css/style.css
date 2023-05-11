@@ -1468,7 +1468,18 @@ p {
 }
 
 .slider-height-3 {
-  height: 850px;
+  height: 850px; 
+}
+.mob-slide{
+  
+    background-image: url(assets/img/slider/slide1.jpg);
+    width: 390px;
+    position: relative;
+    background-size: contain !important;
+    left: 0px;
+    top: 0px;
+    z-index: 999;
+    opacity: 1;
 }
 
 .slider-bg-text {
@@ -6714,7 +6725,8 @@ p {
   }
 
   .slider-height-2 {
-    height: 650px;
+    height: 300px;
+    background-size: contain;
   }
 
   .slider-height-3 {
