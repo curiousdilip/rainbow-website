@@ -411,7 +411,8 @@ tton><i class="fal fa-angle-right"></i></button>'],
 
 	////////////////////////////////////////////////////
     // 16. Post Box Slider Js
-	$('.postbox__gallery').owlCarousel({
+	$('.pobo'<butx__ga
+ery').owlCarousel({
 		loop:true,
 		margin:0,
 		autoplay:false,
