@@ -2,10 +2,10 @@ import Link from "next/link";
 
 export default function Header() {
 
-    
+
     return <>
-      {/* header area start  */}
-      
+        {/* header area start  */}
+
         <header>
             <div className="header-area">
                 <div className="header__top header__top-3 d-none d-md-block box-105">
@@ -15,7 +15,7 @@ export default function Header() {
                                 <div className="header__top-left">
                                     <div className=" logo-3">
                                         <Link href="/">
-                                        <h1>Rainbow Consultancy</h1>
+                                            <h1>Rainbow Consultancy</h1>
                                         </Link>
                                     </div>
                                 </div>
@@ -62,10 +62,10 @@ export default function Header() {
                                     <nav>
                                         <ul>
                                             <li><Link href="/">home</Link>
-                                            
+
                                             </li>
                                             <li><Link href="/about-us">about</Link>
-                                               
+
                                             </li>
                                             <li><Link href="/clients">Our Clients</Link>
                                                 <ul className="submenu">
@@ -75,10 +75,10 @@ export default function Header() {
                                                 </ul>
                                             </li>
                                             <li><Link href="/our-team">Resource Persons</Link>
-                                              
+
                                             </li>
                                             <li><Link href="/testimonials">Testimonials</Link>
-                                           
+
                                             </li>
                                             <li><Link href="#">Links</Link>
                                                 <ul className="submenu">
@@ -101,10 +101,11 @@ export default function Header() {
                                 <div className="header__bottom-3-right d-flex justify-content-end align-items-center">
                                     <div className="social social-border d-none d-xl-block">
                                         <ul>
-                                            <li><Link href="#"><i className="fab fa-facebook-f"></i></Link></li>
-                                            <li><Link href="#"><i className="fab fa-twitter"></i></Link></li>
-                                            <li><Link href="#"><i className="fab fa-pinterest-p"></i></Link></li>
-                                            <li><Link href="#"><i className="fab fa-linkedin-in"></i></Link></li>
+                                            <li><Link href="#"><i className="fab fa-linkedin-in"></i></Link> </li>
+                                            <li><Link href="#"><i className="fab fa-facebook-f"></i></Link> </li>
+                                            <li><Link href="#"><i className="fab fa-instagram"></i></Link> </li>
+                                            <li><Link href="#"><i className="fab fa-twitter"></i></Link> </li>
+                                            <li><Link href="#"><i className="fab fa-youtube"></i></Link> </li>
                                         </ul>
                                     </div>
                                     <div className="header__btn ml-35 d-none d-lg-block">
@@ -122,8 +123,7 @@ export default function Header() {
                 </div>
             </div>
         </header>
-     {/* header area start  */}
-    
+        {/* header area start  */}
+
     </>;
-  }
-  
+}
